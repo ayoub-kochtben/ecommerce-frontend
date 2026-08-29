@@ -1,8 +1,8 @@
 [build]
   command = "ng build --configuration=production"
-  publish = "dist/e-commerce"
+  publish = "dist/e-commerce/browser"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/index.csr.html"
   status = 200
